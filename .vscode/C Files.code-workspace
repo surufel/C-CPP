@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "C Files",
+			"path": "."
+		},
+		{
+			"name": "Projeto",
+			"path": "../Projeto"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c"
+		}
+	}
+}
