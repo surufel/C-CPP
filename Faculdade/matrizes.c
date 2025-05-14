@@ -9,12 +9,13 @@ int main(){
     scanf("%i", &DC);
     int matriz[DL][DC];
     for(i=0;i<DL;i++){
-        for(j=0;i<DC;j++)
-        scanf("%i",&matriz[i][j]);
+        for(j=0;j<DC;j++){
+            scanf("%i",&matriz[i][j]);
+        }
     }
     for(i=0;i<DL;i++){
         for(j=0;j<DC;j++)
-        printf("|%4i",matriz[i][j]);
+        printf("|%2i",matriz[i][j]);
         printf("|\n");
     }
 
