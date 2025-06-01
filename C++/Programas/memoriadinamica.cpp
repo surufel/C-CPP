@@ -8,7 +8,7 @@ int main(){
     std::cout << "Endereço: " << pNum << '\n';
     std::cout << "Valor: " << *pNum << '\n';
 
-    delete pNum;
+    delete pNum; // deletando o pointer, livrando memória do endereço (evita vazamento de dados);
 
     return 0;
 }
